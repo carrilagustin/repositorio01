@@ -1,0 +1,32 @@
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #000; }
+  h1 span {
+    display: block;
+    color: red;
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: rosybrown;
+    padding-bottom: 3rem; }
+
+h2 {
+  font-size: 1rem;
+  color: royalblue;
+  text-shadow: saddlebrown; }
+
+p {
+  font-size: 2rem;
+  color: sandybrown;
+  padding: 2rem; }
+
+footer {
+  padding: 2rem;
+  color: silver;
+  text-align: center; }
+
+.grid-prueba {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: auto;
+  gap: 10px; }

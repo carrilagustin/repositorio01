@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">										
+	<title>CONTACTO | Agustin</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css\styles.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<meta name="keywords" content="recetas, cocina">
+	<meta name="description" content="Pagina de recetas de Agustin">
+</head>
+
+<body>
+	<header class="container">
+		<nav>
+			<a href="index.html">Inicio</a>
+			<a href="recetas.html">Recetas</a>
+			<a href="recetasvegetarianas.html">Recetas Vegetarianas</a>
+			<a href="productos.html">Productos</a>
+			<a href="contacto.html">Contacto</a>
+		</nav>
+	</header>	
+		<h1 class="centrar fondoFuente container">AGUSTIN RECETAS</h1>
+
+	<main class="container">
+		<h2>Escribe tus dudas abajo</h2>
+		<form class="box">	
+			<div>
+				<label for="fullName"  class="nombreFormulario">Nombre y Apellido</label> <br>
+				<input name="fullName" id="fullName" type="text">
+			</div>
+			<br>
+			<div>
+				<label for="email"  class="nombreFormulario">Email</label> <br>
+				<input name="email" id="email" type="email">
+			</div>
+			<br>
+			<div>
+				<label for="interest"  class="nombreFormulario">¿En que podemos ayudarte?</label>
+				<select name="interest" id="interest">
+					<option value="Marketing">Marketing</option>
+					<option value="Venta online">Venta online</option>
+					<option value="Otro">Otro</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label for="comments" class="nombreFormulario">¿Que necesitas?</label>
+				<br>
+				<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+			</div>
+			<div>
+				<label for="">
+					<input name="spam" type="checkbox" value="true"> Desea recibir informacion nueva al mail? 
+				</label>
+
+			</div>
+			<br>
+			<div>
+				<button type="submit">Enviar ✉</button>
+				<input type="reset" value="Reset">
+			</div>
+		</form>	
+	</main>	
+
+	<footer>
+		<div class="container">
+			<hr>
+			Copyrygth &copy; Agustin Carril 2020
+		</div>
+	</footer>
+
+	
+</body>
+</html>
